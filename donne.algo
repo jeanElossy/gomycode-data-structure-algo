@@ -1,0 +1,29 @@
+ALGORITHM Somme
+VAR
+  tab1:=[], tab2:=[] : ARRAY;
+  a; b, sum: INTEGER;
+BEGIN
+  Write "Entrez un chiffre"
+  READ a
+  WHILE (a = number) DO
+    tab1 := tab1[].Ajout(a) 
+  END_WHILE
+  Write "Entrez un chiffre"
+  READ b
+  WHILE (a = number) DO
+    tab2 := tab2[].Ajout(a) 
+  END_WHILE
+
+  a := tab1[i]
+  b := tab1[j]
+  FOR i FROM i < length(tab1) DO
+    FOR j FROM j < length(tab2) DO
+      IF (a = b) THEN
+      sum = a + b
+      END_IF
+    END_FOR
+  END_FOR
+
+  Write tab1, tab2
+  
+END
